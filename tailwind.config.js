@@ -11,7 +11,7 @@ module.exports = {
         extend: {
             screens: {
                 'mobile': '500px',
-                // header semantic is display: inline-block
+                // => @media (min-width: 500px) { ... }
                 '700': '700px',
                 // => @media (min-width: 640px) { ... }
               },
