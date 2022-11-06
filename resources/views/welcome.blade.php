@@ -37,7 +37,7 @@
         </div>  -->
 
 
-        <header class="Do you see my text mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
+        <header class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
         <!-- Email and phone container -->  
         <div class="mobile:w-[100%] lg:flex lg:w-[45%]">
             <div class="mobile:pb-[5px]">
