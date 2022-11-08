@@ -37,8 +37,8 @@
         </div>  -->
 
 
+         {{-- Purple Bar Section --}}
         <header class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
-        <!-- Email and phone container -->  
         <div class="mobile:w-[100%] lg:flex lg:w-[45%]">
             <div class="mobile:pb-[5px]">
               <i class="fa-solid fa-envelope pr-1.5"></i>
@@ -65,9 +65,12 @@
            </div>
         </div>
         </header>
-        <nav class="py-[10px] m-auto w-[70%] flex items-center justify-center justify-between">
-            <h1 class="logo text-[30px]">Hekto</h1>
-            <div class="w-[90%] text-center m-auto">
+         {{-- Purple Bar Section --}}
+        
+         {{-- Navbar Section --}}
+        <nav class="mobile-nav:w-[100%] mobile-nav:inline-block py-[10px] lg:mx-auto lg:w-[70%] lg:flex items-center">
+            <h1 class="mobile:text-center logo text-[30px]">Hekto</h1>
+            <div class="md:w-[100%] text-center m-auto">
                 <a href="/" class="pr-[10px]">Home</a>
                 <a href="/" class="pr-[10px]">Pages</a>
                 <a href="/" class="pr-[10px]">Products</a>
@@ -75,10 +78,27 @@
                 <a href="/" class="pr-[10px]">Shop</a>
                 <a href="/" class="pr-[10px]">Contact</a>
             </div>
-            <div class="flex items-center">
-                <input class="border border-[#E7E6EF] p-[5px]" type="text" placeholder="Search">
+            <div class="items-center mobile:flex mobile:justify-center mobile:mt-[15px]">
+                <input class="lg:w-[200px] mobile:w-[50%] border border-[#E7E6EF] p-[5px]" type="text" placeholder="Search">
                 <span class="bg-[#FB2F86] p-[6px] px-[12px]"><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
         </nav>
+        {{-- Navbar Section --}}
+
+        {{-- Hero Section --}}
+        <div class="bg-[#F2F1FF] flex">
+            <div>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/dMd4T60/image-32.png" alt="image-32" border="0"></a>
+            </div>
+            <div class="flex flex-col justify-center">
+               <p class="text-[#FB2E86]">Best Furniture For Your Castle....</p>
+               <h1>New Furniture Collection Trends in 2020</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+            </div>
+            <div>
+                <a href="https://ibb.co/jJFNRTv"><img src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
+            </div>
+        </div>
+        
     </body>
 </html>

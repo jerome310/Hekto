@@ -12,7 +12,7 @@ module.exports = {
             screens: {
                 'mobile': '500px',
                 // => @media (min-width: 500px) { ... }
-                '700': '700px',
+                'mobile-nav': '837px',
                 // => @media (min-width: 640px) { ... }
               },
         },
