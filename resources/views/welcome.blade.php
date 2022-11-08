@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Fonts Awesome -->
-        <script src="https://kit.fontawesome.com/e8dd0d4134.js" crossorigin="anonymous"></script>
-        
-        <!-- Vite Directive -->
-        @vite('resources/css/app.css', 'resources/js/app.js')
+    <title>Laravel</title>
 
-        <!-- Logo Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    </head>
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/e8dd0d4134.js" crossorigin="anonymous"></script>
 
-    
-    <body class="antialiased">
-        <!-- <div class="relative flex justify-center min-h-screen py-4 bg-gray-100 items-top dark:bg-gray-900 sm:items-center sm:pt-0">
+    <!-- Vite Directive -->
+    @vite('resources/css/app.css', 'resources/js/app.js')
+
+    <!-- Logo Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="antialiased">
+    <!-- <div class="relative flex justify-center min-h-screen py-4 bg-gray-100 items-top dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="fixed top-0 right-0 hidden px-6 py-4 sm:block">
                     @auth
@@ -37,12 +38,12 @@
         </div>  -->
 
 
-         {{-- Purple Bar Section --}}
-        <header class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
+    {{-- Purple Bar Section --}}
+    <header class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
         <div class="mobile:w-[100%] lg:flex lg:w-[45%]">
             <div class="mobile:pb-[5px]">
-              <i class="fa-solid fa-envelope pr-1.5"></i>
-              <a class="mobile:pr-0 lg:pr-[25px]" href="mailto:hekto@gmail.com">hekto@gmail.com</a>
+                <i class="fa-solid fa-envelope pr-1.5"></i>
+                <a class="mobile:pr-0 lg:pr-[25px]" href="mailto:hekto@gmail.com">hekto@gmail.com</a>
             </div>
             <div class="mobile:pb-[5px]">
                 <i class="mobile:pl-0 fa-solid fa-phone-volume lg:pl-[25px]"></i>
@@ -60,45 +61,48 @@
                 <span class="pr-[5px]">Wishlist</span>
                 <i class="fa-solid fa-heart"></i>
             </div>
-           <div class="flex items-center pl-[10px]">
-            <i class="fa-solid fa-cart-shopping"></i>
-           </div>
+            <div class="flex items-center pl-[10px]">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
         </div>
-        </header>
-         {{-- Purple Bar Section --}}
-        
-         {{-- Navbar Section --}}
-        <nav class="mobile-nav:w-[100%] mobile-nav:inline-block py-[10px] lg:mx-auto lg:w-[70%] lg:flex items-center">
-            <h1 class="mobile:text-center logo text-[30px]">Hekto</h1>
-            <div class="md:w-[100%] text-center m-auto">
-                <a href="/" class="pr-[10px]">Home</a>
-                <a href="/" class="pr-[10px]">Pages</a>
-                <a href="/" class="pr-[10px]">Products</a>
-                <a href="/" class="pr-[10px]">Blog</a>
-                <a href="/" class="pr-[10px]">Shop</a>
-                <a href="/" class="pr-[10px]">Contact</a>
-            </div>
-            <div class="items-center mobile:flex mobile:justify-center mobile:mt-[15px]">
-                <input class="lg:w-[200px] mobile:w-[50%] border border-[#E7E6EF] p-[5px]" type="text" placeholder="Search">
-                <span class="bg-[#FB2F86] p-[6px] px-[12px]"><i class="fa-solid fa-magnifying-glass"></i></span>
-            </div>
-        </nav>
-        {{-- Navbar Section --}}
+    </header>
+    {{-- Purple Bar Section --}}
 
-        {{-- Hero Section --}}
-        <div class="bg-[#F2F1FF] flex">
-            <div>
-                <a href="https://imgbb.com/"><img src="https://i.ibb.co/dMd4T60/image-32.png" alt="image-32" border="0"></a>
-            </div>
-            <div class="flex flex-col justify-center">
-               <p class="text-[#FB2E86]">Best Furniture For Your Castle....</p>
-               <h1>New Furniture Collection Trends in 2020</h1>
+    {{-- Navbar Section --}}
+    <nav class="bigger-mobile:w-[100%] bigger-mobile:inline-block py-[10px] lg:mx-auto lg:w-[70%] lg:flex items-center">
+        <h1 class="mobile:text-center logo text-[30px]">Hekto</h1>
+        <div class="md:w-[100%] text-center m-auto">
+            <a href="/" class="pr-[10px]">Home</a>
+            <a href="/" class="pr-[10px]">Pages</a>
+            <a href="/" class="pr-[10px]">Products</a>
+            <a href="/" class="pr-[10px]">Blog</a>
+            <a href="/" class="pr-[10px]">Shop</a>
+            <a href="/" class="pr-[10px]">Contact</a>
+        </div>
+        <div class="items-center mobile:flex mobile:justify-center mobile:mt-[15px]">
+            <input class="lg:w-[200px] mobile:w-[50%] border border-[#E7E6EF] p-[5px]" type="text" placeholder="Search">
+            <span class="bg-[#FB2F86] p-[6px] px-[12px]"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+    </nav>
+    {{-- Navbar Section --}}
+
+    {{-- Hero Section --}}
+    <div class="bigger-mobile:w-[100%]bigger-mobile:inline-block bg-[#F2F1FF] lg:flex">
+        <div class="mobile:flex mobile:justify-center">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/dMd4T60/image-32.png" alt="image-32" border="0"></a>
+        </div>
+        <div class="lg:flex">
+            <div class="flex flex-col justify-center lg:text-left mobile:text-center">
+                <p class="text-[#FB2E86]">Best Furniture For Your Castle....</p>
+                <h1>New Furniture Collection Trends in 2020</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
             </div>
-            <div>
-                <a href="https://ibb.co/jJFNRTv"><img src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
+            <div class="mobile:flex mobile:justify-center">
+                <a href=" https://ibb.co/jJFNRTv"><img src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
             </div>
         </div>
-        
-    </body>
+    </div>
+
+</body>
+
 </html>
