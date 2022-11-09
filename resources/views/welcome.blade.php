@@ -91,9 +91,9 @@
                 <a href="https://imgbb.com/"><img src="https://i.ibb.co/dMd4T60/image-32.png" alt="image-32" border="0"></a>
             </div>
             <div class="flex flex-col justify-center">
-               <p class="text-[#FB2E86]">Best Furniture For Your Castle....</p>
-               <h1>New Furniture Collection Trends in 2020</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+               <p class="text-[#FB2E86] font-bold">Best Furniture For Your Castle....</p>
+               <h1 class="bigger-mobile:text-[30px] lg:text-[53px] font-bold">New Furniture Collection Trends in 2020</h1>
+                <p class="text-[#8A8FB9] lg:pr-[20%] font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
             </div>
             <div>
                 <a href="https://ibb.co/jJFNRTv"><img src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
