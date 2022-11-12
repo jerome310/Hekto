@@ -87,21 +87,21 @@
     {{-- Navbar Section --}}
 
     {{-- Hero Section --}}
-    <div class="bigger-mobile:w-[100%]bigger-mobile:inline-block bg-[#F2F1FF] lg:flex">
+    <div class="bigger-mobile:w-[100%]bigger-mobile:inline-block bg-[#F2F1FF] lg:flex lg:h-[500px]">
         <div class="mobile:flex mobile:justify-center">
-            <a href="https://imgbb.com/"><img src="https://i.ibb.co/dMd4T60/image-32.png" alt="image-32" border="0"></a>
+            <a href="https://imgbb.com/"><img class="bigger-mobile:w-[60%] bigger-mobile:m-auto lg:w-[387px] mobile:w-[250px]" src="https://i.ibb.co/dMd4T60/image-32.png"></a>
         </div>
         <div class="lg:flex">
-            <div class="flex flex-col justify-center lg:text-left mobile:text-center">
-                <p class="text-[#FB2E86] font-bold">Best Furniture For Your Castle....</p>
-                <h1 class="bigger-mobile:text-[30px] lg:text-[53px] font-bold">New Furniture Collection Trends in 2020</h1>
+            <div class="flex flex-col justify-center lg:text-left mobile:text-center mobile:mb-[50px] mobile: px-[30px]">
+                <p class="text-[#FB2E86] font-bold lg:text-[18px] mobile:text-[16px] mobile:pb-[10px] bigger-mobile:pb-[10px] lg:pb-[0px]">Best Furniture For Your Castle....</p>
+                <h1 class="mobile:text-[22px] bigger-mobile:text-[30px] lg:text-[53px] font-bold mobile:pb-[10px] lg:pb-[0px]">New Furniture Collection Trends in 2020</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
             </div>
-            <div class="mobile:flex mobile:justify-center">
-                <a href=" https://ibb.co/jJFNRTv"><img src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
+            <div class="mobile:flex mobile:justify-center lg:m-auto lg:relative lg:right-[20px] 3xl:right-[0px]">
+                <a href=" https://ibb.co/jJFNRTv"><img class="mobile:w-[400px] md:w-[400px] xl:w-[450px]" src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
             </div>
         </div>
-    </div>
+    </div>  
 
 </body>
 

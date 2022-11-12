@@ -14,6 +14,8 @@ module.exports = {
                 // => @media (min-width: 500px) { ... }
                 'bigger-mobile': '837px',
                 // => @media (min-width: 640px) { ... }
+                '3xl': '1891px',
+                // => @media (min-width: 1891px) { ... }
               },
         },
     },
