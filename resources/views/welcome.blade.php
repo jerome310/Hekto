@@ -16,7 +16,8 @@
     <!-- Logo Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 
@@ -39,7 +40,8 @@
 
 
     {{-- Purple Bar Section --}}
-    <header class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
+    <header
+        class="mobile:flex-row mobile:text-center md:w-[100%] md:m-auto lg:flex py-[10px] bg-[#7E33E0] text-[white] items-center justify-center">
         <div class="mobile:w-[100%] lg:flex lg:w-[45%]">
             <div class="mobile:pb-[5px]">
                 <i class="fa-solid fa-envelope pr-1.5"></i>
@@ -89,20 +91,111 @@
     {{-- Hero Section --}}
     <div class="bigger-mobile:w-[100%]bigger-mobile:inline-block bg-[#F2F1FF] lg:flex lg:h-[500px]">
         <div class="mobile:flex mobile:justify-center">
-            <a href="https://imgbb.com/"><img class="bigger-mobile:w-[60%] bigger-mobile:m-auto lg:w-[387px] mobile:w-[250px]" src="https://i.ibb.co/dMd4T60/image-32.png"></a>
+            <a href="https://imgbb.com/"><img
+                    class="bigger-mobile:w-[60%] bigger-mobile:m-auto lg:w-[387px] mobile:w-[250px]"
+                    src="https://i.ibb.co/dMd4T60/image-32.png"></a>
         </div>
         <div class="lg:flex">
-            <div class="flex flex-col justify-center lg:text-left mobile:text-center mobile:mb-[50px] mobile: px-[30px]">
-                <p class="text-[#FB2E86] font-bold lg:text-[18px] mobile:text-[16px] mobile:pb-[10px] bigger-mobile:pb-[10px] lg:pb-[0px]">Best Furniture For Your Castle....</p>
-                <h1 class="mobile:text-[22px] bigger-mobile:text-[30px] lg:text-[53px] font-bold mobile:pb-[10px] lg:pb-[0px]">New Furniture Collection Trends in 2020</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+            <div
+                class="flex flex-col justify-center lg:text-left mobile:text-center mobile:mb-[50px] mobile: px-[30px]">
+                <p
+                    class="text-[#FB2E86] font-bold lg:text-[18px] mobile:text-[16px] mobile:pb-[10px] bigger-mobile:pb-[10px] lg:pb-[0px]">
+                    Best Furniture For Your Castle....</p>
+                <h1
+                    class="mobile:text-[22px] bigger-mobile:text-[30px] lg:text-[53px] font-bold mobile:pb-[10px] lg:pb-[0px]">
+                    New Furniture Collection Trends in 2020</h1>
+                <p class="text-[#A4A7CA] font-bold pb-[35px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna in est adipiscing in phasellus non in justo.</p>
+                <div>
+                    <a href=""
+                        class="bg-[#FB2E86] text-[white] text-center px-[40px] py-[15px] font-bold rounded-[4px]">Shop
+                        Now</a>
+                </div>
             </div>
             <div class="mobile:flex mobile:justify-center lg:m-auto lg:relative lg:right-[20px] 3xl:right-[0px]">
-                <a href=" https://ibb.co/jJFNRTv"><img class="mobile:w-[400px] md:w-[400px] xl:w-[450px]" src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header" border="0"></a>
+                <a href=" https://ibb.co/jJFNRTv"><img class="mobile:w-[400px] md:w-[400px] xl:w-[450px]"
+                        src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header"
+                        border="0"></a>
             </div>
         </div>
-    </div>  
+    </div>
+    {{-- Hero Section --}}
 
+    {{-- Featured Products Section --}}
+    <div>
+        <h1 class="text-[#1A0B5B] text-center text-[40px] font-bold pt-[10%] pb-[5%]">Featured Products</h1>
+        <div class="flex justify-between w-[75%] m-auto">
+            <div class="border-[1px] border-[black] w-[25%]">
+                <div>
+                    <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+                </div>
+                <div class="text-center">
+                    <p class="text-[#FB2E86] font-bold">Cantilever chair</p>
+                    <div class="flex">
+                        <span class="bg-[#06E6B7] w-[30px] h-[2px] border-[1px] border-[#06E6B7]"></span>
+                        <span>pink</span>
+                        <span>blue</span>
+                    </div>
+                    <span>
+                        Code &middot; Y523201
+                    </span>
+                    <p >$42.00</p>
+                </div>
+            </div>
+            <div class="border-[3px] border-[black]">
+                <div>
+                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+                </div>
+                <div class="text-center">
+                    <p>Cantilever chair</p>
+                    <div>
+                        <span>green</span>
+                        <span>pink</span>
+                        <span>blue</span>
+                    </div>
+                    <span>
+                        Code &middot; Y523201
+                    </span>
+                    <p>$42.00</p>
+                </div>
+            </div>
+            <div class="border-[3px] border-[black]">
+                <div>
+                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+                </div>
+                <div>
+                    <p>Cantilever chair</p>
+                    <div>
+                        <span>green</span>
+                        <span>pink</span>
+                        <span>blue</span>
+                    </div>
+                    <span>
+                        Code &middot; Y523201
+                    </span>
+                    <p>$42.00</p>
+                </div>
+            </div>
+            <div class="border-[3px] border-[black]">
+                <div>
+                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+                </div>
+                <div>
+                    <p>Cantilever chair</p>
+                    <div>
+                        <span>green</span>
+                        <span>pink</span>
+                        <span>blue</span>
+                    </div>
+                    <span>
+                        Code &middot; Y523201
+                    </span>
+                    <p>$42.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- Featured Products Section --}}
 </body>
 
 </html>
