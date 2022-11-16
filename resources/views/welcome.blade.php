@@ -124,8 +124,8 @@
     {{-- Featured Products Section --}}
     <div class="pb-[5%]">
         <h1 class="text-[#1A0B5B] text-center text-[40px] font-bold pt-[10%] pb-[5%]">Featured Products</h1>
-        <div class="md:flex lg:justify-between mobile:inline-block bigger-mobile:w-[95%] lg:w-[75%] m-auto">
-            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[100%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+        <div class="md:flex-row md:flex lg:justify-between mobile:flex-col bigger-mobile:w-[95%] lg:w-[75%] m-auto">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[50%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
                 <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
                     <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
@@ -142,7 +142,7 @@
                     <p class="text-[#24267E] text-[16px]">$42.00</p>
                 </div>
             </div>
-            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[100%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[50%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
                 <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
                     <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
