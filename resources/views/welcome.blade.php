@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Hekto App</title>
 
     <!-- Fonts Awesome -->
     <script src="https://kit.fontawesome.com/e8dd0d4134.js" crossorigin="anonymous"></script>
@@ -95,7 +95,7 @@
                     class="bigger-mobile:w-[60%] bigger-mobile:m-auto lg:w-[387px] mobile:w-[250px]"
                     src="https://i.ibb.co/dMd4T60/image-32.png"></a>
         </div>
-        <div class="lg:flex">
+        <div class="lg:flex mobile:pb-[30px] lg:pb-[0px]">
             <div
                 class="flex flex-col justify-center lg:text-left mobile:text-center mobile:mb-[50px] mobile: px-[30px]">
                 <p
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="mobile:flex mobile:justify-center lg:m-auto lg:relative lg:right-[20px] 3xl:right-[0px]">
-                <a href=" https://ibb.co/jJFNRTv"><img class="mobile:w-[400px] md:w-[400px] xl:w-[450px]"
+                <a href=" https://ibb.co/jJFNRTv"><img class="mobile:w-[350px] md:w-[400px] xl:w-[450px]"
                         src="https://i.ibb.co/Z2CjmV6/sofa-promotional-header.png" alt="sofa-promotional-header"
                         border="0"></a>
             </div>
@@ -122,77 +122,78 @@
     {{-- Hero Section --}}
 
     {{-- Featured Products Section --}}
-    <div>
+    <div class="pb-[5%]">
         <h1 class="text-[#1A0B5B] text-center text-[40px] font-bold pt-[10%] pb-[5%]">Featured Products</h1>
-        <div class="flex justify-between w-[75%] m-auto">
-            <div class="border-[1px] border-[black] w-[25%]">
-                <div>
+        <div class="md:flex lg:justify-between mobile:inline-block bigger-mobile:w-[95%] lg:w-[75%] m-auto">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[100%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+                <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
                     <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
-                <div class="text-center">
+                <div class="leading-[45px] text-center">
                     <p class="text-[#FB2E86] font-bold">Cantilever chair</p>
-                    <div class="flex">
-                        <span class="bg-[#06E6B7] w-[30px] h-[2px] border-[1px] border-[#06E6B7]"></span>
-                        <span>pink</span>
-                        <span>blue</span>
+                    <div class="flex justify-center">
+                        <span class="bg-[#06E6B7] w-[15px] h-[6px] border-[1px] border-[#06E6B7] rounded-[6px]"></span>
+                        <span class="bg-[#F701A8] text-[#F701A8] w-[15px] h-[6px] border-[1px] border-[#F701A8] rounded-[6px] mx-[10px]"></span>
+                        <span class="bg-[#00009D] text-[#00009D] w-[15px] h-[6px] border-[1px] border-[#00009D] rounded-[6px]"></span>
                     </div>
-                    <span>
+                    <span class="text-[#24267E] text-[14px] font-bold">
                         Code &middot; Y523201
                     </span>
-                    <p >$42.00</p>
+                    <p class="text-[#24267E] text-[16px]">$42.00</p>
                 </div>
             </div>
-            <div class="border-[3px] border-[black]">
-                <div>
-                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[100%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+                <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
+                    <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
-                <div class="text-center">
-                    <p>Cantilever chair</p>
-                    <div>
-                        <span>green</span>
-                        <span>pink</span>
-                        <span>blue</span>
+                <div class="leading-[45px] text-center">
+                    <p class="text-[#FB2E86] font-bold">Cantilever chair</p>
+                    <div class="flex justify-center">
+                        <span class="bg-[#06E6B7] w-[15px] h-[6px] border-[1px] border-[#06E6B7] rounded-[6px]"></span>
+                        <span class="bg-[#F701A8] text-[#F701A8] w-[15px] h-[6px] border-[1px] border-[#F701A8] rounded-[6px] mx-[10px]"></span>
+                        <span class="bg-[#00009D] text-[#00009D] w-[15px] h-[6px] border-[1px] border-[#00009D] rounded-[6px]"></span>
                     </div>
-                    <span>
+                    <span class="text-[#24267E] text-[14px] font-bold">
                         Code &middot; Y523201
                     </span>
-                    <p>$42.00</p>
+                    <p class="text-[#24267E] text-[16px]">$42.00</p>
                 </div>
             </div>
-            <div class="border-[3px] border-[black]">
-                <div>
-                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:mb-[30px] mobile:w-[50%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+                <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
+                    <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
-                <div>
-                    <p>Cantilever chair</p>
-                    <div>
-                        <span>green</span>
-                        <span>pink</span>
-                        <span>blue</span>
+                <div class="leading-[45px] text-center">
+                    <p class="text-[#FB2E86] font-bold">Cantilever chair</p>
+                    <div class="flex justify-center">
+                        <span class="bg-[#06E6B7] w-[15px] h-[6px] border-[1px] border-[#06E6B7] rounded-[6px]"></span>
+                        <span class="bg-[#F701A8] text-[#F701A8] w-[15px] h-[6px] border-[1px] border-[#F701A8] rounded-[6px] mx-[10px]"></span>
+                        <span class="bg-[#00009D] text-[#00009D] w-[15px] h-[6px] border-[1px] border-[#00009D] rounded-[6px]"></span>
                     </div>
-                    <span>
+                    <span class="text-[#24267E] text-[14px] font-bold">
                         Code &middot; Y523201
                     </span>
-                    <p>$42.00</p>
+                    <p class="text-[#24267E] text-[16px]">$42.00</p>
                 </div>
             </div>
-            <div class="border-[3px] border-[black]">
-                <div>
-                    <img src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
+            <div style="box-shadow: -6px -4px 15px 5px #F3F3F3;" class="mobile:w-[50%] mobile:m-auto lg:w-[19%] bigger-mobile:w-[40%]">
+                <div class="bg-[#F6F7FB] border-[1px] border-[#F6F7FB] pt-[50px] pb-[10px]">
+                    <img class="m-auto" src="https://i.ibb.co/5cqddBP/image-1168.png" alt="">
                 </div>
-                <div>
-                    <p>Cantilever chair</p>
-                    <div>
-                        <span>green</span>
-                        <span>pink</span>
-                        <span>blue</span>
+                <div class="leading-[45px] text-center">
+                    <p class="text-[#FB2E86] font-bold">Cantilever chair</p>
+                    <div class="flex justify-center">
+                        <span class="bg-[#06E6B7] w-[15px] h-[6px] border-[1px] border-[#06E6B7] rounded-[6px]"></span>
+                        <span class="bg-[#F701A8] text-[#F701A8] w-[15px] h-[6px] border-[1px] border-[#F701A8] rounded-[6px] mx-[10px]"></span>
+                        <span class="bg-[#00009D] text-[#00009D] w-[15px] h-[6px] border-[1px] border-[#00009D] rounded-[6px]"></span>
                     </div>
-                    <span>
+                    <span class="text-[#24267E] text-[14px] font-bold">
                         Code &middot; Y523201
                     </span>
-                    <p>$42.00</p>
+                    <p class="text-[#24267E] text-[16px]">$42.00</p>
                 </div>
-            </div>
+            </div> 
+          </div>
         </div>
     </div>
     {{-- Featured Products Section --}}
