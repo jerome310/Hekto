@@ -197,6 +197,16 @@
         </div>
     </div>
     {{-- Featured Products Section --}}
+    <div class="text-center">
+       <h1>Latest Products</h1>
+       <div class="flex justify-center">
+          <a href="/" class="text-[#151875] hover:text-[#F701A8] hover:underline-offset-8">New Arrival</a>
+          <a href="/">Best Seller</a>
+          <a href="/">Featured</a>
+          <a href="/">Special Offer</a>
+       </div>  
+       
+    </div>
 </body>
 
 </html>
